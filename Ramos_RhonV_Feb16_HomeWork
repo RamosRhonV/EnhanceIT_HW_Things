@@ -1,1 +1,48 @@
-Bingus Bingus Bingus
+Questionnaire:
+(1) What is the difference between var and let?
+The variable types var and let are functionally identical. However, the a let variable is immutable while a var variable is mutable.
+
+(2) What is an optional?
+An optional, ?, denotes that the variable can either have a value or be null.
+
+(3) What is optional chaining versus optional binding?
+Optional chaining allows reference to an object if it is unknown if the object references a null value. As a result, Optional chaining would output "undefined."
+Optional binding allows a block of code to accept a null value if an optional references a null value. This ensures that there is always a default output instead
+of a thrown exception.
+
+(4) What are the different ways to unwrap an optional? How do they work? Are they safe?
+There are seven methods of unwrapping an optional.
+  (a) Forced Unwrap. Use a ! after an optional to force unwrap it. This is unsafe. Ex: let b:Int = a!
+  (b) Implicitly Unwrap. Use a ! after an implicit variable to unwrap it. This is unsafe. Ex: let b = a!
+  (c) Optional binding. This is safe. 
+      Ex: if let b = a { print("safely unwrapped. The value is \(b)") }
+  (d) Optional chaining. This is safe.
+      Ex: let b = a?.count
+  (e) Nil coalescing. This is safe.
+      Ex: let b = a ?? "No"
+  (f) Use a Guard statement. This is safe.
+      Ex: guard let b = a else { return }
+  (g) Use an Optional pattern. This is safe.
+      Ex: if case let a? = x { print(a) }
+      
+(5) What is a closure?
+Closures are anonymous functions that can be stored in a variable.
+
+(6) What does the syntax "??" do?
+The syntax ?? is Nil coalescing. It allows an optional to be replaced by a default value should the optional reference null.
+
+(7) What is a tuple?
+It is a comma-separated list of values that aren't necessarily the same datatype.
+
+(8) What is Any versus AnyObject?
+The keyword Any refers to any instance, class, struct, or enum. It basically can refer to anything.
+The keyword AnyObject refers to any instance of a class. It does not allow any other type aside from a reference type to be used.
+
+(9) What is a protocol?
+A Protocol acts as a blueprint Class for all Classes that provide a specific functionality. Classes that adopt a Protocol must provide an implementation for
+the code blocks inside the Protocol. Example: the Class A that adopts the Protocol AP must provide an implemention of AP's function BP.
+
+(10) What is a delegation?
+A delegation can come from a Delegate, an Object that controls and/or modifies the attributes of another Object. The Delegate Object comes
+from a Class that adopts a Delegate Protocol. From there, the Delegate Class can then create Delegate Objects.
+    

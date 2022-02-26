@@ -25,16 +25,22 @@ class AlbumInfoVC: UIViewController {
     func changeImage () {
         print("image changed to image of cell \(selectedCell)")
         let albumCover = albums[selectedCell].image
-        let newImage = UIImageView(image: albumCover)
-        newImage.contentMode = UIImageView.ContentMode.scaleAspectFit
-        AlbumImage.addSubview(newImage)
+        let resizedCover = albumCover.resized(to: CGSize(width: 200.0, height: 200.0))
+        let coverImage = AlbumCoverImageView(image: resizedCover)
+
+        AlbumImage.addSubview(coverImage)
     }
     
     func changeLabels() {
         AlbumTitleLabel.text = albums[selectedCell].title
         AlbumDescriptionLabel.text = albums[selectedCell].description
     }
-    
-    
+}
 
+extension UIImage {
+    func resized(to size: CGSize) -> UIImage {
+        return UIGraphicsImageRenderer(size: size).image { _ in
+            draw(in: CGRect(origin: .zero, size: size))
+        }
+    }
 }

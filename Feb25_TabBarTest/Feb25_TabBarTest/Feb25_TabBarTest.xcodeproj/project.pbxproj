@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02E3D9FC27CAEA1B00EDD34D /* AlbumCoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E3D9FB27CAEA1B00EDD34D /* AlbumCoverImageView.swift */; };
 		02F12EAF27C978B600B890C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F12EAE27C978B600B890C4 /* AppDelegate.swift */; };
 		02F12EB127C978B600B890C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F12EB027C978B600B890C4 /* SceneDelegate.swift */; };
 		02F12EB327C978B600B890C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F12EB227C978B600B890C4 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E3D9FB27CAEA1B00EDD34D /* AlbumCoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCoverImageView.swift; sourceTree = "<group>"; };
 		02F12EAB27C978B600B890C4 /* Feb25_TabBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feb25_TabBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F12EAE27C978B600B890C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F12EB027C978B600B890C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				02F98D6027CA7B6A000E0FDF /* AlbumInfoVC.swift */,
+				02E3D9FB27CAEA1B00EDD34D /* AlbumCoverImageView.swift */,
 				02F98D5627C99DC7000E0FDF /* Album.swift */,
 				02F98D4E27C99D83000E0FDF /* AlbumListVC.swift */,
 				02F98D5827C99DE1000E0FDF /* UIView+Ext.swift */,
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E3D9FC27CAEA1B00EDD34D /* AlbumCoverImageView.swift in Sources */,
 				02F12EB327C978B600B890C4 /* ViewController.swift in Sources */,
 				02F12EAF27C978B600B890C4 /* AppDelegate.swift in Sources */,
 				02F98D5927C99DE1000E0FDF /* UIView+Ext.swift in Sources */,

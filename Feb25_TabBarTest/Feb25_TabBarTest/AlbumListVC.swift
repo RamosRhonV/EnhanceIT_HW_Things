@@ -64,7 +64,7 @@ extension AlbumListVC {
             Album(image: Images.sk4, title: "Skrunkos", description: "An amazing spin-off. While not as exciting as the original trilogy, it still maintains the familiar charm of Skrunko."),
             Album(image: Images.sk5, title: "Skrinki", description: "An astounding reboot. A surprising reprisal of the Skrunko series; it breathes new life into an antiquated franchise."),
             Album(image: Images.sk6, title: "Bingus", description: "A cute cat. It longs for affection. Please provide some post-haste!"),
-            Album(image: Images.sk7, title: "Floppa", description: "A sinister entity. Do not be fooled by its promises. Ensure both your desires are untainted."),
+            Album(image: Images.sk7, title: "Floppa", description: "A sinister entity. Do not be fooled by its promises. Ensure both your thoughts and desires are untainted."),
             Album(image: Images.sk8, title: "Gakster", description: "A mischievious kitty. Keep a list of your belongings as you travel through its abode. It will almost always steal a portion of it."),
             Album(image: Images.sk9, title: "Gusic", description: "A bountiful warrior. They have scoured the globe for fights and arenas. Lavish in its strength, for it will happily teach it."),
             Album(image: Images.sk10, title: "Scoogas", description: "A foolish jester. Empty laughter meets its jokes. Join in its cursed tomfoolery... or simply ignore it.")

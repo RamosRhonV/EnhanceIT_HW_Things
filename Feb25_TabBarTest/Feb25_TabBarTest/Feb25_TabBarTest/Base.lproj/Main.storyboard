@@ -91,7 +91,7 @@
                                 <accessibility key="accessibilityConfiguration" identifier="AlbumImageView"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTl-FJ-oIF">
-                                <rect key="frame" x="95" y="278" width="225" height="150"/>
+                                <rect key="frame" x="95" y="278" width="225" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="AlbumTitle"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -99,7 +99,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAI-Er-d0q">
-                                <rect key="frame" x="70" y="436" width="275" height="350"/>
+                                <rect key="frame" x="70" y="371" width="275" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="AlbumDescriptionLabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>

@@ -25,7 +25,7 @@ class AlbumInfoVC: UIViewController {
     func changeImage () {
         print("image changed to image of cell \(selectedCell)")
         let albumCover = albums[selectedCell].image
-        let resizedCover = albumCover.resized(to: CGSize(width: 200.0, height: 200.0))
+        let resizedCover = albumCover.resized(to: CGSize(width: 250.0, height: 250.0))
         let coverImage = AlbumCoverImageView(image: resizedCover)
 
         AlbumImage.addSubview(coverImage)

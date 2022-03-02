@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var tableview: UITableView!
     var breweries = [Brewery]()
     
     override func viewDidLoad() {
@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     }
     
     func setupDelegates() {
-        tableView.delegate = self
-        tableView.dataSource = self
+        tableview.delegate = self
+        tableview.dataSource = self
     }
     
     func fetchData() {
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
                     self.breweries.append(Brewery(name: name, type: type, city: city, state: state))
                 }
                 DispatchQueue.main.async {
-                    self.tableView.reloadData()
+                    self.tableview.reloadData()
                 }
             }
         }
@@ -80,15 +80,28 @@ class ViewController: UIViewController {
     }
 }
 
+/*extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return breweries.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableview.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = breweries[indexPath.row].name
+        cell.detailTextLabel?.text = "\(breweries[indexPath.row].city),\(breweries[indexPath.row].state)"
+        return cell
+    }*/
+    
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return breweries.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableview.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = breweries[indexPath.row].name
-        cell.detailTextLabel?.text = "\(breweries[indexPath.row].city),\(breweries[indexPath.row].state)"
+        cell.detailTextLabel?.text = "\(breweries[indexPath.row].city), \(breweries[indexPath.row].state)"
+        
         return cell
     }
 }

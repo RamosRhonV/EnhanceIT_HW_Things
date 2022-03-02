@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="M0d-bb-ALF">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="M0d-bb-ALF">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="cell" textLabel="gul-2H-pWc" detailTextLabel="ovN-IQ-IuQ" style="IBUITableViewCellStyleSubtitle" id="fBB-jZ-yb9">
@@ -50,9 +49,15 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NHK-fz-d3s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M0d-bb-ALF" firstAttribute="top" secondItem="O69-zW-hI3" secondAttribute="top" id="Bqf-DB-aan"/>
+                            <constraint firstItem="M0d-bb-ALF" firstAttribute="trailing" secondItem="NHK-fz-d3s" secondAttribute="trailing" id="K81-ep-gtY"/>
+                            <constraint firstItem="M0d-bb-ALF" firstAttribute="leading" secondItem="NHK-fz-d3s" secondAttribute="leading" id="qP7-HR-1sy"/>
+                            <constraint firstAttribute="bottom" secondItem="M0d-bb-ALF" secondAttribute="bottom" id="zv4-69-bkp"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="M0d-bb-ALF" id="2kP-SE-kUh"/>
+                        <outlet property="tableview" destination="M0d-bb-ALF" id="sFp-JR-amj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hd0-TI-LLU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

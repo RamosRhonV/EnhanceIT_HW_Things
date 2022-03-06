@@ -14,16 +14,27 @@ class ViewController: UIViewController {
     var attr = [PokemonAttributes]()
     var pokeTypes = [PokemonTypes]()
     var pokeURL: String = "https://pokeapi.co/api/v2/pokemon/1"
+    var pokemonType = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupDelegates()
         fetchPokemon()
+        //fetchPokemonType(url: pokeURL)
     }
     
     func setupDelegates() {
         PokemonTableView.delegate = self
         PokemonTableView.dataSource = self
+    }
+    
+    func loopCells() {
+        for sec in 0..<PokemonTableView.numberOfSections {
+            for cel in 0..<PokemonTableView.numberOfRows(inSection: 0) {
+                print(cel)
+                print("cell found")
+            }
+        }
     }
     
     func fetchPokemon() {
@@ -32,7 +43,7 @@ class ViewController: UIViewController {
             case .success(let raw):
                 self?.pokemon = raw.results
                 DispatchQueue.main.async {
-                    self?.PokemonTableView.reloadData()
+                    //self?.PokemonTableView.reloadData()
                 }
             case .failure(let error):
                 print(error)
@@ -40,7 +51,7 @@ class ViewController: UIViewController {
         }
     }
     
-    /*func fetchPokemonType(url:String) {
+    func fetchPokemonType(url:String) -> String {
         let urlStr = URL(string: url)
         URLSession.shared.getRequest(url: urlStr, decoding: PokemonAttributes.self) { [weak self] result in
             switch result {
@@ -56,7 +67,9 @@ class ViewController: UIViewController {
                 print(error)
             }
         }
-    }*/
+        
+        return pokemonType
+    }
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
@@ -68,7 +81,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = PokemonTableView.dequeueReusableCell(withIdentifier: "pokeCell", for: indexPath)
         
         cell.textLabel?.text = pokemon[indexPath.row].name.capitalized
-        cell.detailTextLabel?.text = pokemon[indexPath.row].url
+        pokeURL = pokemon[indexPath.row].url
+        //cell.detailTextLabel?.text = fetchPokemonType(url: pokeURL)
+        
         return cell
     }
 }

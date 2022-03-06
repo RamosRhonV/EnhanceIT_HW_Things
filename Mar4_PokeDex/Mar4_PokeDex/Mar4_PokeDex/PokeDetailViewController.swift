@@ -11,4 +11,6 @@ import UIKit
 class PokeDetailViewController: UIViewController {
     
     @IBOutlet weak var PokeSpriteImage: UIImageView!
+    @IBOutlet weak var PokeNameLabel: UILabel!
+    @IBOutlet weak var PokeTypeLabel: UILabel!
 }

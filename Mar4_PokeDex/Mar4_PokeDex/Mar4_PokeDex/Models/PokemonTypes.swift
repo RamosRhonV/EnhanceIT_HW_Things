@@ -9,7 +9,7 @@ import Foundation
 
 struct PokemonTypes: Codable {
     var slot:Int
-    var types:[Types]
+    var type:Types
 }
 
 struct Types: Codable {

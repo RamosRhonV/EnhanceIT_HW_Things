@@ -8,7 +8,7 @@
 import Foundation
 
 struct PokemonMoves: Codable {
-    var move:[Moves]
+    var move:Moves
 }
 
 struct Moves: Codable {

@@ -21,8 +21,8 @@ struct PokemonAttributes: Codable {
     var name:String
     var order:Int
     var past_types:[PokemonPastTypes]
-    var species:[PokemonSpecies]
-    var sprites:[PokemonSprites]
+    var species:PokemonSpecies
+    var sprites:PokemonSprites
     var stats:[PokemonStats]
     var types:[PokemonTypes]
 }

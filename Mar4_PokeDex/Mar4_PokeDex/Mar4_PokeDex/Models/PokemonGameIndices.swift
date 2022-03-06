@@ -9,10 +9,10 @@ import Foundation
 
 struct PokemonGameIndices: Codable {
     var game_index:Int
-    var version:[Version]
+    var version:GVersion
 }
 
-struct Version: Codable {
+struct GVersion: Codable {
     var name:String
     var url:String?
 }

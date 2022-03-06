@@ -8,7 +8,10 @@
 import Foundation
 
 struct PokemonAbilities: Codable {
-    var ability:[Abilities]
+    var ability:Abilities
+    var is_hidden:Bool
+    var slot:Int
+    
 }
 
 struct Abilities: Codable {

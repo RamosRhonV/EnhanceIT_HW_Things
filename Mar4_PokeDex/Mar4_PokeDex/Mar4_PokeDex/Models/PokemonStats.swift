@@ -10,7 +10,7 @@ import Foundation
 struct PokemonStats: Codable {
     var base_stat:Int
     var effort:Int
-    var stat:[Stats]
+    var stat:Stats
 }
 
 struct Stats: Codable {

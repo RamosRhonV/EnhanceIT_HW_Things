@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026E4F1827D650C400606E1B /* LazyLoadLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E4F1727D650C400606E1B /* LazyLoadLabel.swift */; };
+		026E4F1A27D6513B00606E1B /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E4F1927D6513B00606E1B /* PokemonTableViewCell.swift */; };
+		026E4F1C27D6709D00606E1B /* LazyLoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E4F1B27D6709D00606E1B /* LazyLoadImage.swift */; };
 		02CCA26B27D28E9F00E4E136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCA26A27D28E9F00E4E136 /* AppDelegate.swift */; };
 		02CCA26D27D28E9F00E4E136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCA26C27D28E9F00E4E136 /* SceneDelegate.swift */; };
 		02CCA26F27D28E9F00E4E136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCA26E27D28E9F00E4E136 /* ViewController.swift */; };
@@ -54,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026E4F1727D650C400606E1B /* LazyLoadLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadLabel.swift; sourceTree = "<group>"; };
+		026E4F1927D6513B00606E1B /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
+		026E4F1B27D6709D00606E1B /* LazyLoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadImage.swift; sourceTree = "<group>"; };
 		02CCA26727D28E9F00E4E136 /* Mar4_PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mar4_PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CCA26A27D28E9F00E4E136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CCA26C27D28E9F00E4E136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,11 +147,11 @@
 				02CCA26A27D28E9F00E4E136 /* AppDelegate.swift */,
 				02CCA26C27D28E9F00E4E136 /* SceneDelegate.swift */,
 				02CCA26E27D28E9F00E4E136 /* ViewController.swift */,
+				02CCA2CF27D4407B00E4E136 /* PokeDetailViewController.swift */,
 				02CCA27027D28E9F00E4E136 /* Main.storyboard */,
 				02CCA27327D28EA000E4E136 /* Assets.xcassets */,
 				02CCA27527D28EA000E4E136 /* LaunchScreen.storyboard */,
 				02CCA27827D28EA000E4E136 /* Info.plist */,
-				02CCA2CF27D4407B00E4E136 /* PokeDetailViewController.swift */,
 			);
 			path = Mar4_PokeDex;
 			sourceTree = "<group>";
@@ -183,6 +189,7 @@
 				02CCA2C927D2AF7700E4E136 /* PokemonSprites.swift */,
 				02CCA2CB27D2AFED00E4E136 /* PokemonStats.swift */,
 				02CCA2CD27D2B0E700E4E136 /* PokemonTypes.swift */,
+				026E4F1927D6513B00606E1B /* PokemonTableViewCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +208,8 @@
 				02CCA2A327D2923900E4E136 /* Extension+URLSessionError.swift */,
 				02CCA2A727D2928D00E4E136 /* Extension+URLSessionRequest.swift */,
 				02CCA2A927D2938300E4E136 /* Extension+ImageView.swift */,
+				026E4F1727D650C400606E1B /* LazyLoadLabel.swift */,
+				026E4F1B27D6709D00606E1B /* LazyLoadImage.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -339,6 +348,7 @@
 				02CCA2C427D2ADFE00E4E136 /* PokemonMoves.swift in Sources */,
 				02CCA29E27D290A200E4E136 /* Pokemon.swift in Sources */,
 				02CCA2D027D4407B00E4E136 /* PokeDetailViewController.swift in Sources */,
+				026E4F1A27D6513B00606E1B /* PokemonTableViewCell.swift in Sources */,
 				02CCA2AA27D2938300E4E136 /* Extension+ImageView.swift in Sources */,
 				02CCA2CA27D2AF7700E4E136 /* PokemonSprites.swift in Sources */,
 				02CCA2CE27D2B0E700E4E136 /* PokemonTypes.swift in Sources */,
@@ -352,8 +362,10 @@
 				02CCA2A127D2916400E4E136 /* APIEndpoints.swift in Sources */,
 				02CCA2B827D2AB1300E4E136 /* PokemonAttributes.swift in Sources */,
 				02CCA26D27D28E9F00E4E136 /* SceneDelegate.swift in Sources */,
+				026E4F1C27D6709D00606E1B /* LazyLoadImage.swift in Sources */,
 				02CCA2C627D2AE9D00E4E136 /* PokemonPastTypes.swift in Sources */,
 				02CCA2C027D2AD0700E4E136 /* PokemonGameIndices.swift in Sources */,
+				026E4F1827D650C400606E1B /* LazyLoadLabel.swift in Sources */,
 				02CCA2BE27D2ACCC00E4E136 /* PokemonForms.swift in Sources */,
 				02CCA2B427D2AA0600E4E136 /* PokemonAbilities.swift in Sources */,
 				02CCA2C227D2ADBF00E4E136 /* PokemonHeldItems.swift in Sources */,

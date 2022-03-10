@@ -16,12 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let isOn = UserDefaults.standard.switchIsOn
         setupDelegates()
-        // Do any additional setup after loading the view.
-    }
-
-    @IBAction func toggledSwitch(_ sender: UISwitch) {
-        UserDefaults.standard.switchIsOn = sender.isOn
-        print("x")
     }
     
     func setupDelegates() {
@@ -41,7 +35,6 @@ class ViewController: UIViewController {
     func fetchJson(completed: @escaping () -> ()) {
         guard let url = URL(string:"https://api.opendota.com/api/heroStats") else { return }
         let session = URLSession.shared
-        print("tasks done")
         let task = session.dataTask(with: url) { data, response, error in
             guard error == nil else {
                 print("Error: \(error?.localizedDescription ?? "Something strange happened.")")
@@ -70,7 +63,6 @@ class ViewController: UIViewController {
             }
         }
         task.resume()
-        print("tasks done")
     }
 }
 
@@ -79,20 +71,29 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return heroes.count
     }
+    
+    
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // new cell includes fav button and image
-        /*let newCell = tableview.dequeueReusableCell(withIdentifier: "heroCell", for: indexPath) as! HeroTableViewCell
-        newCell.HeroNameLabel.text = heroes[indexPath.row].name.capitalized
+        let cell = tableview.dequeueReusableCell(withIdentifier: "heroCell", for: indexPath) as! HeroTableViewCell
+        //cell.HeroNameLabel.text = heroes[indexPath.row].name.capitalized
+        //cell.HeroFavImageView.image = UIImage(named: "five_point_star.png")
         
-        let favSwitch = newCell.HeroFavSwitch
-        newCell.accessoryView = favSwitch*/
+        let button = UIButton(type:.roundedRect)
+        button.setTitle("A", for: .normal)
+        button.sizeToFit()
+        cell.accessoryView = button
         
         // old cell only including hero name
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        cell.textLabel?.text = heroes[indexPath.row].name.capitalized
+        //let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        //cell.textLabel?.text = heroes[indexPath.row].name.capitalized
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        print("x")
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

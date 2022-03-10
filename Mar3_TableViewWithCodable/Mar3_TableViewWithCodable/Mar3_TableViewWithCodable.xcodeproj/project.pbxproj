@@ -19,6 +19,8 @@
 		0214529027CFFD86007AA82A /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214528F27CFFD86007AA82A /* Hero.swift */; };
 		0214529427D00198007AA82A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214529327D00198007AA82A /* DetailViewController.swift */; };
 		0214529827D0112B007AA82A /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214529727D0112B007AA82A /* Extension+UIImageView.swift */; };
+		0215B04927D9656500FEDE0C /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215B04827D9656500FEDE0C /* HeroTableViewCell.swift */; };
+		0215B04C27D9722E00FEDE0C /* Extension+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215B04B27D9722E00FEDE0C /* Extension+UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		0214528F27CFFD86007AA82A /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		0214529327D00198007AA82A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0214529727D0112B007AA82A /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		0215B04827D9656500FEDE0C /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		0215B04B27D9722E00FEDE0C /* Extension+UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UserDefaults.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 				0214529327D00198007AA82A /* DetailViewController.swift */,
 				0214526227CFFCA4007AA82A /* ViewController.swift */,
 				0214526027CFFCA4007AA82A /* SceneDelegate.swift */,
+				0215B04827D9656500FEDE0C /* HeroTableViewCell.swift */,
 				0214526427CFFCA4007AA82A /* Main.storyboard */,
 				0214526727CFFCA6007AA82A /* Assets.xcassets */,
 				0214526927CFFCA6007AA82A /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				0214529727D0112B007AA82A /* Extension+UIImageView.swift */,
+				0215B04B27D9722E00FEDE0C /* Extension+UserDefaults.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 				0214529427D00198007AA82A /* DetailViewController.swift in Sources */,
 				0214526127CFFCA4007AA82A /* SceneDelegate.swift in Sources */,
 				0214529827D0112B007AA82A /* Extension+UIImageView.swift in Sources */,
+				0215B04927D9656500FEDE0C /* HeroTableViewCell.swift in Sources */,
+				0215B04C27D9722E00FEDE0C /* Extension+UserDefaults.swift in Sources */,
 				0214529027CFFD86007AA82A /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,10 +14,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let isOn = UserDefaults.standard.switchIsOn
         setupDelegates()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func toggledSwitch(_ sender: UISwitch) {
+        UserDefaults.standard.switchIsOn = sender.isOn
+        print("x")
+    }
+    
     func setupDelegates() {
         fetchJson {
             self.tableview.reloadData()
@@ -35,6 +41,7 @@ class ViewController: UIViewController {
     func fetchJson(completed: @escaping () -> ()) {
         guard let url = URL(string:"https://api.opendota.com/api/heroStats") else { return }
         let session = URLSession.shared
+        print("tasks done")
         let task = session.dataTask(with: url) { data, response, error in
             guard error == nil else {
                 print("Error: \(error?.localizedDescription ?? "Something strange happened.")")
@@ -63,6 +70,7 @@ class ViewController: UIViewController {
             }
         }
         task.resume()
+        print("tasks done")
     }
 }
 
@@ -74,6 +82,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        // new cell includes fav button and image
+        /*let newCell = tableview.dequeueReusableCell(withIdentifier: "heroCell", for: indexPath) as! HeroTableViewCell
+        newCell.HeroNameLabel.text = heroes[indexPath.row].name.capitalized
+        
+        let favSwitch = newCell.HeroFavSwitch
+        newCell.accessoryView = favSwitch*/
+        
+        // old cell only including hero name
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
         cell.textLabel?.text = heroes[indexPath.row].name.capitalized
         return cell

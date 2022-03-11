@@ -7,7 +7,7 @@
 
 import Foundation
 
+// url for the pokemon api
 struct APIEndpoints {
     static let pokemons = URL(string:"https://pokeapi.co/api/v2/pokemon/")
-    static let pokemonsFirstThirty = URL(string:"https://pokeapi.co/api/v2/pokemon?offset=0&limit=30")
 }

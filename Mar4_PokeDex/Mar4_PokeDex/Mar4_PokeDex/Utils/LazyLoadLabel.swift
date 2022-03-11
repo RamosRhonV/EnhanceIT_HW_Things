@@ -10,7 +10,7 @@ import UIKit
 
 class LazyLoadLabel: UILabel {
     
-    // loads pokemon type
+    // loads pokemon type for each tableview cell that gets initialized
     func loadLabel(fromURL:String) {
         DispatchQueue.global().async {
             URLSession.shared.getRequest(url: URL(string:fromURL), decoding: PokemonAttributes.self) { [weak self] result in

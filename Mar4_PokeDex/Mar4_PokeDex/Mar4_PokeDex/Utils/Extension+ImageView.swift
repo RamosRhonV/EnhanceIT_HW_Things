@@ -9,6 +9,9 @@ import Foundation
 import UIKit
 
 extension UIImageView {
+    
+    // UIImage view extension creates the getImage function that retrieves
+    // an image from a specified url
     func getImage(from url: URL, contentMode mode: ContentMode = .scaleAspectFit) {
         contentMode = mode
         let session = URLSession.shared

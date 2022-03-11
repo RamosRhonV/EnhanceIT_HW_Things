@@ -7,6 +7,8 @@
 
 import Foundation
 
+// models folder holds the structs that model the individual parts
+// of the returned JSON
 struct Raw: Codable {
     var count:Int
     var next:String?

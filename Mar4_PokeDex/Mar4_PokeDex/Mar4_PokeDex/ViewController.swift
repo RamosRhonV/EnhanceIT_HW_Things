@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // creates a tableview of the first 151 pokemon ever created
     @IBOutlet weak var PokemonTableView: UITableView!
     var pokemon = [Pokemon]()
     var attr = [PokemonAttributes]()
@@ -34,6 +35,9 @@ class ViewController: UIViewController {
     }
     
     func fetchPokemon(apiOffset: Int, apiLoads: Int) {
+        
+        // fetches the pokemon from the index of the apiOffset value
+        // then retrieves more pokemon based on the apiLoads value
         URLSession.shared.getRequest(url: URL(string: "https://pokeapi.co/api/v2/pokemon?offset=\(apiOffset)&limit=\(apiLoads)"), decoding: Raw.self) { [weak self] result in
             switch result {
             case .success(let raw):
@@ -77,11 +81,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return 100
     }
     
+    // segues to the detail view of the pokemon
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
         segueIndex = indexPath.row
         self.performSegue(withIdentifier: "pokeDetailsSegue", sender: self)
     }
     
+    // when a segue occurs, initializes the url of the pokemon in the selected cell
+    // this url is used to retrieve the pokemon's unique attributes
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "pokeDetailsSegue") {
             let destination = segue.destination as! PokeDetailViewController
@@ -89,6 +96,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    // allows pagination
+    // loads the next thirty pokemon into the app as newly created tableview cells
     func loadData() {
         if !self.isLoading {
             self.isLoading = true
@@ -100,6 +109,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                     self.fetchPokemon(apiOffset: self.apiOffset, apiLoads: self.apiLoads)
                 } else if(self.pokemon.count == 150) {
                     self.apiLoads = self.pokemon.count
+                    
+                    // loads the Mew pokemon
                     self.fetchPokemon(apiOffset: 150, apiLoads: 1)
                     self.isLoading = false
                 } else {
@@ -113,6 +124,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    // checks if the user had attempted to scroll down past the height of the tableview
+    // if true, loads more pokemon as new tableviewcells
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offsetY = scrollView.contentOffset.y
         let contentHeight = scrollView.contentSize.height

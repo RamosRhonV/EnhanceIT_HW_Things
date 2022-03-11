@@ -8,8 +8,10 @@
 import Foundation
 import UIKit
 
-// loads pokemon sprite
 class LazyLoadImage: UIImageView {
+    
+    // loads the sprite image for each tableview cell that gets initialized
+    // the image loaded is the front_default sprite of each pokemon
     func loadImage(imageURL: URL, placeHolderImage:String) {
         self.image = UIImage(named: placeHolderImage)
         

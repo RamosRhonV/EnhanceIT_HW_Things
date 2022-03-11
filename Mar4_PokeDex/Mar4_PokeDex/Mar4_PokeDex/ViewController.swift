@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupDelegates()
+        
+        // fetches the first thirty pokemon as tableview cells upon loading the view startup
         fetchPokemon(apiOffset: apiOffset, apiLoads: apiLoads)
     }
     

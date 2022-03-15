@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		020EA15527E0CDA20028A178 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020EA15427E0CDA20028A178 /* BullsEyeTests.swift */; };
 		020EA16227E0D4980028A178 /* BullsEyeSlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020EA16127E0D4980028A178 /* BullsEyeSlowTests.swift */; };
+		020EA16927E0E7050028A178 /* BullsEyeFakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020EA16827E0E7050028A178 /* BullsEyeFakeTest.swift */; };
 		0A6CFAFD21F39B0F00345B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6CFAFB21F39B0F00345B5B /* ViewController.swift */; };
 		0A6CFAFE21F39B0F00345B5B /* BullsEyeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6CFAFC21F39B0F00345B5B /* BullsEyeGame.swift */; };
 		202D822E25D7D57B00778080 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202D822D25D7D57B00778080 /* NetworkMonitor.swift */; };
@@ -41,6 +42,7 @@
 		020EA15427E0CDA20028A178 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
 		020EA15F27E0D4980028A178 /* BullsEyeSlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeSlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		020EA16127E0D4980028A178 /* BullsEyeSlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeSlowTests.swift; sourceTree = "<group>"; };
+		020EA16827E0E7050028A178 /* BullsEyeFakeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BullsEyeFakeTest.swift; path = BullsEyeTests/BullsEyeFakeTest.swift; sourceTree = SOURCE_ROOT; };
 		0A6CFAFB21F39B0F00345B5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A6CFAFC21F39B0F00345B5B /* BullsEyeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullsEyeGame.swift; sourceTree = "<group>"; };
 		202D822D25D7D57B00778080 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		020EA16027E0D4980028A178 /* BullsEyeSlowTests */ = {
 			isa = PBXGroup;
 			children = (
+				020EA16827E0E7050028A178 /* BullsEyeFakeTest.swift */,
 				020EA16127E0D4980028A178 /* BullsEyeSlowTests.swift */,
 			);
 			path = BullsEyeSlowTests;
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				020EA16227E0D4980028A178 /* BullsEyeSlowTests.swift in Sources */,
+				020EA16927E0E7050028A178 /* BullsEyeFakeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

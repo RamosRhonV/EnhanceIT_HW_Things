@@ -81,7 +81,12 @@ import UIKit
  */
 
 // (15) What is the application and controller lifecycle?
-/* (A)
+/* (A) It is a series of methods in the following order:
+ *     viewDidLoad(), viewWillAppear(), viewDidAppear(), viewWillDisappear(), and viewDidDisappear()
+ *     After viewDidDisappear(), the lifecycle will loop back to viewWillAppear() and will
+ *     continue ad infinitum until the application has been closed. In some cases, a controller
+ *     in its "appearing" phase will immediately call viewWillDisappear(). Likewise, a controller
+ *     in its "disappearing" phase will immediately call viewWillAppear().
  *
  */
 

@@ -19,6 +19,7 @@
 		020D464527E108290076F6E4 /* Mar15_AllAboutTestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020D464427E108290076F6E4 /* Mar15_AllAboutTestsUITestsLaunchTests.swift */; };
 		0274C32227E11BEC00039F0F /* AllAboutTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274C32127E11BEC00039F0F /* AllAboutTestsTests.swift */; };
 		0274C32427E121DA00039F0F /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274C32327E121DA00039F0F /* FibonacciTests.swift */; };
+		0285D7E727E2505700EACE0E /* BoboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285D7E627E2505700EACE0E /* BoboViewController.swift */; };
 		02ED55B427E10C0700768AD4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED55B327E10C0700768AD4 /* SecondViewController.swift */; };
 		02ED55B627E10D1B00768AD4 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ED55B527E10D1B00768AD4 /* ValidationService.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		020D464427E108290076F6E4 /* Mar15_AllAboutTestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mar15_AllAboutTestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0274C32127E11BEC00039F0F /* AllAboutTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAboutTestsTests.swift; sourceTree = "<group>"; };
 		0274C32327E121DA00039F0F /* FibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		0285D7E627E2505700EACE0E /* BoboViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoboViewController.swift; sourceTree = "<group>"; };
 		02ED55B327E10C0700768AD4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		02ED55B527E10D1B00768AD4 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 				020D462C27E108290076F6E4 /* LaunchScreen.storyboard */,
 				020D462F27E108290076F6E4 /* Info.plist */,
 				020D462727E108270076F6E4 /* Mar15_AllAboutTests.xcdatamodeld */,
+				0285D7E627E2505700EACE0E /* BoboViewController.swift */,
 			);
 			path = Mar15_AllAboutTests;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				020D462927E108270076F6E4 /* Mar15_AllAboutTests.xcdatamodeld in Sources */,
 				020D462327E108270076F6E4 /* ViewController.swift in Sources */,
+				0285D7E727E2505700EACE0E /* BoboViewController.swift in Sources */,
 				02ED55B627E10D1B00768AD4 /* ValidationService.swift in Sources */,
 				020D461F27E108270076F6E4 /* AppDelegate.swift in Sources */,
 				02ED55B427E10C0700768AD4 /* SecondViewController.swift in Sources */,

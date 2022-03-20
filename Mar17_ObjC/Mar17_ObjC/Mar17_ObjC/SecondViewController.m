@@ -31,7 +31,7 @@ NSString *selectedCountry = @"nationState";
  */
 
 -(NSArray *) countriesList {
-    NSArray *countriesList = [NSArray arrayWithObjects:@"Bingus", @"Floppa", @"Gakster", @"Scoogas", @"Plimpus",@"The United States of America", @"Skrunkly", @"Cate", nil];
+    NSArray *countriesList = [NSArray arrayWithObjects:@"Bingus", @"Floppa", @"Gakster", @"Scoogas", @"Plimpus", @"The United States of America", @"Skrunkly", @"Cate", nil];
     
     return countriesList;
 }

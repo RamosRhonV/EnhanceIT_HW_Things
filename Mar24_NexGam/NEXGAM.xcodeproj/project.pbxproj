@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020DF9FA27ECDE5D00D0A970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DF9F927ECDE5D00D0A970 /* AppDelegate.swift */; };
+		020DF9FC27ECDE5D00D0A970 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DF9FB27ECDE5D00D0A970 /* SceneDelegate.swift */; };
+		020DF9FE27ECDE5D00D0A970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DF9FD27ECDE5D00D0A970 /* ViewController.swift */; };
+		020DFA0127ECDE5D00D0A970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020DF9FF27ECDE5D00D0A970 /* Main.storyboard */; };
+		020DFA0327ECDE5F00D0A970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020DFA0227ECDE5F00D0A970 /* Assets.xcassets */; };
+		020DFA0627ECDE5F00D0A970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020DFA0427ECDE5F00D0A970 /* LaunchScreen.storyboard */; };
+		020DFA1127ECDE6000D0A970 /* NEXGAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DFA1027ECDE6000D0A970 /* NEXGAMTests.swift */; };
+		020DFA1B27ECDE6000D0A970 /* NEXGAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DFA1A27ECDE6000D0A970 /* NEXGAMUITests.swift */; };
+		020DFA1D27ECDE6000D0A970 /* NEXGAMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020DFA1C27ECDE6000D0A970 /* NEXGAMUITestsLaunchTests.swift */; };
+		0285DA2727ED48DF00EACE0E /* UpcomingGamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2627ED48DF00EACE0E /* UpcomingGamesVC.swift */; };
+		0285DA2927ED48ED00EACE0E /* TopGamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2827ED48ED00EACE0E /* TopGamesVC.swift */; };
+		0285DA2B27ED490600EACE0E /* TopAllTimeGamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2A27ED490600EACE0E /* TopAllTimeGamesVC.swift */; };
+		0285DA2D27ED491100EACE0E /* StoresNearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2C27ED491100EACE0E /* StoresNearVC.swift */; };
+		0285DA2F27ED491D00EACE0E /* GiveawayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2E27ED491D00EACE0E /* GiveawayVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020DFA0D27ECDE6000D0A970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020DF9EE27ECDE5D00D0A970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020DF9F527ECDE5D00D0A970;
+			remoteInfo = NEXGAM;
+		};
+		020DFA1727ECDE6000D0A970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020DF9EE27ECDE5D00D0A970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020DF9F527ECDE5D00D0A970;
+			remoteInfo = NEXGAM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020DF9F627ECDE5D00D0A970 /* NEXGAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEXGAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020DF9F927ECDE5D00D0A970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		020DF9FB27ECDE5D00D0A970 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		020DF9FD27ECDE5D00D0A970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		020DFA0027ECDE5D00D0A970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		020DFA0227ECDE5F00D0A970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020DFA0527ECDE5F00D0A970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		020DFA0727ECDE5F00D0A970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020DFA0C27ECDE6000D0A970 /* NEXGAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEXGAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020DFA1027ECDE6000D0A970 /* NEXGAMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEXGAMTests.swift; sourceTree = "<group>"; };
+		020DFA1627ECDE6000D0A970 /* NEXGAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEXGAMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020DFA1A27ECDE6000D0A970 /* NEXGAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEXGAMUITests.swift; sourceTree = "<group>"; };
+		020DFA1C27ECDE6000D0A970 /* NEXGAMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEXGAMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0285DA2627ED48DF00EACE0E /* UpcomingGamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingGamesVC.swift; sourceTree = "<group>"; };
+		0285DA2827ED48ED00EACE0E /* TopGamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesVC.swift; sourceTree = "<group>"; };
+		0285DA2A27ED490600EACE0E /* TopAllTimeGamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAllTimeGamesVC.swift; sourceTree = "<group>"; };
+		0285DA2C27ED491100EACE0E /* StoresNearVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresNearVC.swift; sourceTree = "<group>"; };
+		0285DA2E27ED491D00EACE0E /* GiveawayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020DF9F327ECDE5D00D0A970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020DFA0927ECDE6000D0A970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020DFA1327ECDE6000D0A970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020DF9ED27ECDE5D00D0A970 = {
+			isa = PBXGroup;
+			children = (
+				020DF9F827ECDE5D00D0A970 /* NEXGAM */,
+				020DFA0F27ECDE6000D0A970 /* NEXGAMTests */,
+				020DFA1927ECDE6000D0A970 /* NEXGAMUITests */,
+				020DF9F727ECDE5D00D0A970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020DF9F727ECDE5D00D0A970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020DF9F627ECDE5D00D0A970 /* NEXGAM.app */,
+				020DFA0C27ECDE6000D0A970 /* NEXGAMTests.xctest */,
+				020DFA1627ECDE6000D0A970 /* NEXGAMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020DF9F827ECDE5D00D0A970 /* NEXGAM */ = {
+			isa = PBXGroup;
+			children = (
+				020DF9F927ECDE5D00D0A970 /* AppDelegate.swift */,
+				020DF9FB27ECDE5D00D0A970 /* SceneDelegate.swift */,
+				020DF9FD27ECDE5D00D0A970 /* ViewController.swift */,
+				020DF9FF27ECDE5D00D0A970 /* Main.storyboard */,
+				020DFA0227ECDE5F00D0A970 /* Assets.xcassets */,
+				020DFA0427ECDE5F00D0A970 /* LaunchScreen.storyboard */,
+				020DFA0727ECDE5F00D0A970 /* Info.plist */,
+				0285DA2627ED48DF00EACE0E /* UpcomingGamesVC.swift */,
+				0285DA2827ED48ED00EACE0E /* TopGamesVC.swift */,
+				0285DA2A27ED490600EACE0E /* TopAllTimeGamesVC.swift */,
+				0285DA2C27ED491100EACE0E /* StoresNearVC.swift */,
+				0285DA2E27ED491D00EACE0E /* GiveawayVC.swift */,
+			);
+			path = NEXGAM;
+			sourceTree = "<group>";
+		};
+		020DFA0F27ECDE6000D0A970 /* NEXGAMTests */ = {
+			isa = PBXGroup;
+			children = (
+				020DFA1027ECDE6000D0A970 /* NEXGAMTests.swift */,
+			);
+			path = NEXGAMTests;
+			sourceTree = "<group>";
+		};
+		020DFA1927ECDE6000D0A970 /* NEXGAMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				020DFA1A27ECDE6000D0A970 /* NEXGAMUITests.swift */,
+				020DFA1C27ECDE6000D0A970 /* NEXGAMUITestsLaunchTests.swift */,
+			);
+			path = NEXGAMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020DF9F527ECDE5D00D0A970 /* NEXGAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020DFA2027ECDE6000D0A970 /* Build configuration list for PBXNativeTarget "NEXGAM" */;
+			buildPhases = (
+				020DF9F227ECDE5D00D0A970 /* Sources */,
+				020DF9F327ECDE5D00D0A970 /* Frameworks */,
+				020DF9F427ECDE5D00D0A970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEXGAM;
+			productName = NEXGAM;
+			productReference = 020DF9F627ECDE5D00D0A970 /* NEXGAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		020DFA0B27ECDE6000D0A970 /* NEXGAMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020DFA2327ECDE6000D0A970 /* Build configuration list for PBXNativeTarget "NEXGAMTests" */;
+			buildPhases = (
+				020DFA0827ECDE6000D0A970 /* Sources */,
+				020DFA0927ECDE6000D0A970 /* Frameworks */,
+				020DFA0A27ECDE6000D0A970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020DFA0E27ECDE6000D0A970 /* PBXTargetDependency */,
+			);
+			name = NEXGAMTests;
+			productName = NEXGAMTests;
+			productReference = 020DFA0C27ECDE6000D0A970 /* NEXGAMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		020DFA1527ECDE6000D0A970 /* NEXGAMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020DFA2627ECDE6000D0A970 /* Build configuration list for PBXNativeTarget "NEXGAMUITests" */;
+			buildPhases = (
+				020DFA1227ECDE6000D0A970 /* Sources */,
+				020DFA1327ECDE6000D0A970 /* Frameworks */,
+				020DFA1427ECDE6000D0A970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020DFA1827ECDE6000D0A970 /* PBXTargetDependency */,
+			);
+			name = NEXGAMUITests;
+			productName = NEXGAMUITests;
+			productReference = 020DFA1627ECDE6000D0A970 /* NEXGAMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020DF9EE27ECDE5D00D0A970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					020DF9F527ECDE5D00D0A970 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					020DFA0B27ECDE6000D0A970 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 020DF9F527ECDE5D00D0A970;
+					};
+					020DFA1527ECDE6000D0A970 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 020DF9F527ECDE5D00D0A970;
+					};
+				};
+			};
+			buildConfigurationList = 020DF9F127ECDE5D00D0A970 /* Build configuration list for PBXProject "NEXGAM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020DF9ED27ECDE5D00D0A970;
+			productRefGroup = 020DF9F727ECDE5D00D0A970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020DF9F527ECDE5D00D0A970 /* NEXGAM */,
+				020DFA0B27ECDE6000D0A970 /* NEXGAMTests */,
+				020DFA1527ECDE6000D0A970 /* NEXGAMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020DF9F427ECDE5D00D0A970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020DFA0627ECDE5F00D0A970 /* LaunchScreen.storyboard in Resources */,
+				020DFA0327ECDE5F00D0A970 /* Assets.xcassets in Resources */,
+				020DFA0127ECDE5D00D0A970 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020DFA0A27ECDE6000D0A970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020DFA1427ECDE6000D0A970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020DF9F227ECDE5D00D0A970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0285DA2727ED48DF00EACE0E /* UpcomingGamesVC.swift in Sources */,
+				0285DA2F27ED491D00EACE0E /* GiveawayVC.swift in Sources */,
+				0285DA2B27ED490600EACE0E /* TopAllTimeGamesVC.swift in Sources */,
+				0285DA2927ED48ED00EACE0E /* TopGamesVC.swift in Sources */,
+				020DF9FE27ECDE5D00D0A970 /* ViewController.swift in Sources */,
+				0285DA2D27ED491100EACE0E /* StoresNearVC.swift in Sources */,
+				020DF9FA27ECDE5D00D0A970 /* AppDelegate.swift in Sources */,
+				020DF9FC27ECDE5D00D0A970 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020DFA0827ECDE6000D0A970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020DFA1127ECDE6000D0A970 /* NEXGAMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020DFA1227ECDE6000D0A970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020DFA1D27ECDE6000D0A970 /* NEXGAMUITestsLaunchTests.swift in Sources */,
+				020DFA1B27ECDE6000D0A970 /* NEXGAMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020DFA0E27ECDE6000D0A970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020DF9F527ECDE5D00D0A970 /* NEXGAM */;
+			targetProxy = 020DFA0D27ECDE6000D0A970 /* PBXContainerItemProxy */;
+		};
+		020DFA1827ECDE6000D0A970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020DF9F527ECDE5D00D0A970 /* NEXGAM */;
+			targetProxy = 020DFA1727ECDE6000D0A970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		020DF9FF27ECDE5D00D0A970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020DFA0027ECDE5D00D0A970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		020DFA0427ECDE5F00D0A970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020DFA0527ECDE5F00D0A970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020DFA1E27ECDE6000D0A970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		020DFA1F27ECDE6000D0A970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		020DFA2127ECDE6000D0A970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NEXGAM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnchangeIT..NEXGAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		020DFA2227ECDE6000D0A970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NEXGAM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnchangeIT..NEXGAM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		020DFA2427ECDE6000D0A970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnchangeIT..NEXGAMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEXGAM.app/NEXGAM";
+			};
+			name = Debug;
+		};
+		020DFA2527ECDE6000D0A970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnchangeIT..NEXGAMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEXGAM.app/NEXGAM";
+			};
+			name = Release;
+		};
+		020DFA2727ECDE6000D0A970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnchangeIT..NEXGAMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEXGAM;
+			};
+			name = Debug;
+		};
+		020DFA2827ECDE6000D0A970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnchangeIT..NEXGAMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEXGAM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020DF9F127ECDE5D00D0A970 /* Build configuration list for PBXProject "NEXGAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020DFA1E27ECDE6000D0A970 /* Debug */,
+				020DFA1F27ECDE6000D0A970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020DFA2027ECDE6000D0A970 /* Build configuration list for PBXNativeTarget "NEXGAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020DFA2127ECDE6000D0A970 /* Debug */,
+				020DFA2227ECDE6000D0A970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020DFA2327ECDE6000D0A970 /* Build configuration list for PBXNativeTarget "NEXGAMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020DFA2427ECDE6000D0A970 /* Debug */,
+				020DFA2527ECDE6000D0A970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020DFA2627ECDE6000D0A970 /* Build configuration list for PBXNativeTarget "NEXGAMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020DFA2727ECDE6000D0A970 /* Debug */,
+				020DFA2827ECDE6000D0A970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020DF9EE27ECDE5D00D0A970 /* Project object */;
+}

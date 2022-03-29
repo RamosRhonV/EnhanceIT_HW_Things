@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0285DA4927F22F3000EACE0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA4827F22F3000EACE0E /* AppDelegate.swift */; };
+		0285DA4B27F22F3000EACE0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA4A27F22F3000EACE0E /* SceneDelegate.swift */; };
+		0285DA4D27F22F3000EACE0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA4C27F22F3000EACE0E /* ViewController.swift */; };
+		0285DA5027F22F3000EACE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0285DA4E27F22F3000EACE0E /* Main.storyboard */; };
+		0285DA5327F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA5127F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodeld */; };
+		0285DA5527F22F3200EACE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0285DA5427F22F3200EACE0E /* Assets.xcassets */; };
+		0285DA5827F22F3200EACE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0285DA5627F22F3200EACE0E /* LaunchScreen.storyboard */; };
+		0285DA6327F22F3200EACE0E /* Mar28_PostmanRelatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA6227F22F3200EACE0E /* Mar28_PostmanRelatedTests.swift */; };
+		0285DA6D27F22F3200EACE0E /* Mar28_PostmanRelatedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA6C27F22F3200EACE0E /* Mar28_PostmanRelatedUITests.swift */; };
+		0285DA6F27F22F3200EACE0E /* Mar28_PostmanRelatedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA6E27F22F3200EACE0E /* Mar28_PostmanRelatedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0285DA5F27F22F3200EACE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0285DA3D27F22F3000EACE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0285DA4427F22F3000EACE0E;
+			remoteInfo = Mar28_PostmanRelated;
+		};
+		0285DA6927F22F3200EACE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0285DA3D27F22F3000EACE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0285DA4427F22F3000EACE0E;
+			remoteInfo = Mar28_PostmanRelated;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0285DA4527F22F3000EACE0E /* Mar28_PostmanRelated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mar28_PostmanRelated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0285DA4827F22F3000EACE0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0285DA4A27F22F3000EACE0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0285DA4C27F22F3000EACE0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0285DA4F27F22F3000EACE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0285DA5227F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mar28_PostmanRelated.xcdatamodel; sourceTree = "<group>"; };
+		0285DA5427F22F3200EACE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0285DA5727F22F3200EACE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0285DA5927F22F3200EACE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0285DA5E27F22F3200EACE0E /* Mar28_PostmanRelatedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mar28_PostmanRelatedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0285DA6227F22F3200EACE0E /* Mar28_PostmanRelatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mar28_PostmanRelatedTests.swift; sourceTree = "<group>"; };
+		0285DA6827F22F3200EACE0E /* Mar28_PostmanRelatedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mar28_PostmanRelatedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0285DA6C27F22F3200EACE0E /* Mar28_PostmanRelatedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mar28_PostmanRelatedUITests.swift; sourceTree = "<group>"; };
+		0285DA6E27F22F3200EACE0E /* Mar28_PostmanRelatedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mar28_PostmanRelatedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0285DA4227F22F3000EACE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0285DA5B27F22F3200EACE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0285DA6527F22F3200EACE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0285DA3C27F22F3000EACE0E = {
+			isa = PBXGroup;
+			children = (
+				0285DA4727F22F3000EACE0E /* Mar28_PostmanRelated */,
+				0285DA6127F22F3200EACE0E /* Mar28_PostmanRelatedTests */,
+				0285DA6B27F22F3200EACE0E /* Mar28_PostmanRelatedUITests */,
+				0285DA4627F22F3000EACE0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0285DA4627F22F3000EACE0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0285DA4527F22F3000EACE0E /* Mar28_PostmanRelated.app */,
+				0285DA5E27F22F3200EACE0E /* Mar28_PostmanRelatedTests.xctest */,
+				0285DA6827F22F3200EACE0E /* Mar28_PostmanRelatedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0285DA4727F22F3000EACE0E /* Mar28_PostmanRelated */ = {
+			isa = PBXGroup;
+			children = (
+				0285DA4827F22F3000EACE0E /* AppDelegate.swift */,
+				0285DA4A27F22F3000EACE0E /* SceneDelegate.swift */,
+				0285DA4C27F22F3000EACE0E /* ViewController.swift */,
+				0285DA4E27F22F3000EACE0E /* Main.storyboard */,
+				0285DA5427F22F3200EACE0E /* Assets.xcassets */,
+				0285DA5627F22F3200EACE0E /* LaunchScreen.storyboard */,
+				0285DA5927F22F3200EACE0E /* Info.plist */,
+				0285DA5127F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodeld */,
+			);
+			path = Mar28_PostmanRelated;
+			sourceTree = "<group>";
+		};
+		0285DA6127F22F3200EACE0E /* Mar28_PostmanRelatedTests */ = {
+			isa = PBXGroup;
+			children = (
+				0285DA6227F22F3200EACE0E /* Mar28_PostmanRelatedTests.swift */,
+			);
+			path = Mar28_PostmanRelatedTests;
+			sourceTree = "<group>";
+		};
+		0285DA6B27F22F3200EACE0E /* Mar28_PostmanRelatedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0285DA6C27F22F3200EACE0E /* Mar28_PostmanRelatedUITests.swift */,
+				0285DA6E27F22F3200EACE0E /* Mar28_PostmanRelatedUITestsLaunchTests.swift */,
+			);
+			path = Mar28_PostmanRelatedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0285DA4427F22F3000EACE0E /* Mar28_PostmanRelated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0285DA7227F22F3200EACE0E /* Build configuration list for PBXNativeTarget "Mar28_PostmanRelated" */;
+			buildPhases = (
+				0285DA4127F22F3000EACE0E /* Sources */,
+				0285DA4227F22F3000EACE0E /* Frameworks */,
+				0285DA4327F22F3000EACE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mar28_PostmanRelated;
+			productName = Mar28_PostmanRelated;
+			productReference = 0285DA4527F22F3000EACE0E /* Mar28_PostmanRelated.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0285DA5D27F22F3200EACE0E /* Mar28_PostmanRelatedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0285DA7527F22F3200EACE0E /* Build configuration list for PBXNativeTarget "Mar28_PostmanRelatedTests" */;
+			buildPhases = (
+				0285DA5A27F22F3200EACE0E /* Sources */,
+				0285DA5B27F22F3200EACE0E /* Frameworks */,
+				0285DA5C27F22F3200EACE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0285DA6027F22F3200EACE0E /* PBXTargetDependency */,
+			);
+			name = Mar28_PostmanRelatedTests;
+			productName = Mar28_PostmanRelatedTests;
+			productReference = 0285DA5E27F22F3200EACE0E /* Mar28_PostmanRelatedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0285DA6727F22F3200EACE0E /* Mar28_PostmanRelatedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0285DA7827F22F3200EACE0E /* Build configuration list for PBXNativeTarget "Mar28_PostmanRelatedUITests" */;
+			buildPhases = (
+				0285DA6427F22F3200EACE0E /* Sources */,
+				0285DA6527F22F3200EACE0E /* Frameworks */,
+				0285DA6627F22F3200EACE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0285DA6A27F22F3200EACE0E /* PBXTargetDependency */,
+			);
+			name = Mar28_PostmanRelatedUITests;
+			productName = Mar28_PostmanRelatedUITests;
+			productReference = 0285DA6827F22F3200EACE0E /* Mar28_PostmanRelatedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0285DA3D27F22F3000EACE0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0285DA4427F22F3000EACE0E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0285DA5D27F22F3200EACE0E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0285DA4427F22F3000EACE0E;
+					};
+					0285DA6727F22F3200EACE0E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0285DA4427F22F3000EACE0E;
+					};
+				};
+			};
+			buildConfigurationList = 0285DA4027F22F3000EACE0E /* Build configuration list for PBXProject "Mar28_PostmanRelated" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0285DA3C27F22F3000EACE0E;
+			productRefGroup = 0285DA4627F22F3000EACE0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0285DA4427F22F3000EACE0E /* Mar28_PostmanRelated */,
+				0285DA5D27F22F3200EACE0E /* Mar28_PostmanRelatedTests */,
+				0285DA6727F22F3200EACE0E /* Mar28_PostmanRelatedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0285DA4327F22F3000EACE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0285DA5827F22F3200EACE0E /* LaunchScreen.storyboard in Resources */,
+				0285DA5527F22F3200EACE0E /* Assets.xcassets in Resources */,
+				0285DA5027F22F3000EACE0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0285DA5C27F22F3200EACE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0285DA6627F22F3200EACE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0285DA4127F22F3000EACE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0285DA4D27F22F3000EACE0E /* ViewController.swift in Sources */,
+				0285DA4927F22F3000EACE0E /* AppDelegate.swift in Sources */,
+				0285DA4B27F22F3000EACE0E /* SceneDelegate.swift in Sources */,
+				0285DA5327F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0285DA5A27F22F3200EACE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0285DA6327F22F3200EACE0E /* Mar28_PostmanRelatedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0285DA6427F22F3200EACE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0285DA6F27F22F3200EACE0E /* Mar28_PostmanRelatedUITestsLaunchTests.swift in Sources */,
+				0285DA6D27F22F3200EACE0E /* Mar28_PostmanRelatedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0285DA6027F22F3200EACE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0285DA4427F22F3000EACE0E /* Mar28_PostmanRelated */;
+			targetProxy = 0285DA5F27F22F3200EACE0E /* PBXContainerItemProxy */;
+		};
+		0285DA6A27F22F3200EACE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0285DA4427F22F3000EACE0E /* Mar28_PostmanRelated */;
+			targetProxy = 0285DA6927F22F3200EACE0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0285DA4E27F22F3000EACE0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0285DA4F27F22F3000EACE0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0285DA5627F22F3200EACE0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0285DA5727F22F3200EACE0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0285DA7027F22F3200EACE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0285DA7127F22F3200EACE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0285DA7327F22F3200EACE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FR9WL9V753;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mar28_PostmanRelated/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-test-personal.Mar28-PostmanRelated";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0285DA7427F22F3200EACE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FR9WL9V753;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mar28_PostmanRelated/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-test-personal.Mar28-PostmanRelated";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0285DA7627F22F3200EACE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FR9WL9V753;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-test-personal.Mar28-PostmanRelatedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mar28_PostmanRelated.app/Mar28_PostmanRelated";
+			};
+			name = Debug;
+		};
+		0285DA7727F22F3200EACE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FR9WL9V753;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-test-personal.Mar28-PostmanRelatedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mar28_PostmanRelated.app/Mar28_PostmanRelated";
+			};
+			name = Release;
+		};
+		0285DA7927F22F3200EACE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FR9WL9V753;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-test-personal.Mar28-PostmanRelatedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mar28_PostmanRelated;
+			};
+			name = Debug;
+		};
+		0285DA7A27F22F3200EACE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FR9WL9V753;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-test-personal.Mar28-PostmanRelatedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mar28_PostmanRelated;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0285DA4027F22F3000EACE0E /* Build configuration list for PBXProject "Mar28_PostmanRelated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0285DA7027F22F3200EACE0E /* Debug */,
+				0285DA7127F22F3200EACE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0285DA7227F22F3200EACE0E /* Build configuration list for PBXNativeTarget "Mar28_PostmanRelated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0285DA7327F22F3200EACE0E /* Debug */,
+				0285DA7427F22F3200EACE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0285DA7527F22F3200EACE0E /* Build configuration list for PBXNativeTarget "Mar28_PostmanRelatedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0285DA7627F22F3200EACE0E /* Debug */,
+				0285DA7727F22F3200EACE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0285DA7827F22F3200EACE0E /* Build configuration list for PBXNativeTarget "Mar28_PostmanRelatedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0285DA7927F22F3200EACE0E /* Debug */,
+				0285DA7A27F22F3200EACE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0285DA5127F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0285DA5227F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodel */,
+			);
+			currentVersion = 0285DA5227F22F3000EACE0E /* Mar28_PostmanRelated.xcdatamodel */;
+			path = Mar28_PostmanRelated.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0285DA3D27F22F3000EACE0E /* Project object */;
+}

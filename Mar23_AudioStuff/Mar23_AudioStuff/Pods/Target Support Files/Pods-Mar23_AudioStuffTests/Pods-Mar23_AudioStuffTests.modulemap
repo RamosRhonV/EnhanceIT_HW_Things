@@ -1,0 +1,6 @@
+framework module Pods_Mar23_AudioStuffTests {
+  umbrella header "Pods-Mar23_AudioStuffTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

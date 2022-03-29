@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Mar23_AudioStuff' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Mar23_AudioStuff
+  
+  pod 'Alamofire', '~> 5.5'
+
+  target 'Mar23_AudioStuffTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Mar23_AudioStuffUITests' do
+    # Pods for testing
+  end
+
+end

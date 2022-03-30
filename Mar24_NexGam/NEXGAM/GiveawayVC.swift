@@ -12,6 +12,7 @@ class GiveawayVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("giveaway loaded")
     }
     
 }

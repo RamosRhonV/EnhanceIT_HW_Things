@@ -12,6 +12,6 @@ class TopGamesVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("top games loaded")
     }
-    
 }

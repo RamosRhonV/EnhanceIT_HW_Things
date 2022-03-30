@@ -21,6 +21,10 @@
 		0285DA2B27ED490600EACE0E /* TopAllTimeGamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2A27ED490600EACE0E /* TopAllTimeGamesVC.swift */; };
 		0285DA2D27ED491100EACE0E /* StoresNearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2C27ED491100EACE0E /* StoresNearVC.swift */; };
 		0285DA2F27ED491D00EACE0E /* GiveawayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0285DA2E27ED491D00EACE0E /* GiveawayVC.swift */; };
+		02A6BB4827F4A886008F64ED /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB4727F4A886008F64ED /* APIEndpoints.swift */; };
+		02A6BB4B27F4AEFE008F64ED /* Extension+URLSessionRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB4A27F4AEFE008F64ED /* Extension+URLSessionRequests.swift */; };
+		02A6BB4D27F4AFE2008F64ED /* Extension+URLSessionErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB4C27F4AFE2008F64ED /* Extension+URLSessionErrors.swift */; };
+		02A6BB5027F4BD91008F64ED /* AllGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB4F27F4BD91008F64ED /* AllGames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		0285DA2A27ED490600EACE0E /* TopAllTimeGamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAllTimeGamesVC.swift; sourceTree = "<group>"; };
 		0285DA2C27ED491100EACE0E /* StoresNearVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresNearVC.swift; sourceTree = "<group>"; };
 		0285DA2E27ED491D00EACE0E /* GiveawayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveawayVC.swift; sourceTree = "<group>"; };
+		02A6BB4727F4A886008F64ED /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		02A6BB4A27F4AEFE008F64ED /* Extension+URLSessionRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+URLSessionRequests.swift"; sourceTree = "<group>"; };
+		02A6BB4C27F4AFE2008F64ED /* Extension+URLSessionErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+URLSessionErrors.swift"; sourceTree = "<group>"; };
+		02A6BB4F27F4BD91008F64ED /* AllGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,9 @@
 		020DF9F827ECDE5D00D0A970 /* NEXGAM */ = {
 			isa = PBXGroup;
 			children = (
+				02A6BB4E27F4BD7F008F64ED /* Models */,
+				02A6BB4927F4AEEC008F64ED /* Utils */,
+				02A6BB4627F4A878008F64ED /* APIEndpoints */,
 				020DF9F927ECDE5D00D0A970 /* AppDelegate.swift */,
 				020DF9FB27ECDE5D00D0A970 /* SceneDelegate.swift */,
 				020DF9FD27ECDE5D00D0A970 /* ViewController.swift */,
@@ -140,6 +151,31 @@
 				020DFA1C27ECDE6000D0A970 /* NEXGAMUITestsLaunchTests.swift */,
 			);
 			path = NEXGAMUITests;
+			sourceTree = "<group>";
+		};
+		02A6BB4627F4A878008F64ED /* APIEndpoints */ = {
+			isa = PBXGroup;
+			children = (
+				02A6BB4727F4A886008F64ED /* APIEndpoints.swift */,
+			);
+			path = APIEndpoints;
+			sourceTree = "<group>";
+		};
+		02A6BB4927F4AEEC008F64ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02A6BB4A27F4AEFE008F64ED /* Extension+URLSessionRequests.swift */,
+				02A6BB4C27F4AFE2008F64ED /* Extension+URLSessionErrors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		02A6BB4E27F4BD7F008F64ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02A6BB4F27F4BD91008F64ED /* AllGames.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,12 +311,16 @@
 			files = (
 				0285DA2727ED48DF00EACE0E /* UpcomingGamesVC.swift in Sources */,
 				0285DA2F27ED491D00EACE0E /* GiveawayVC.swift in Sources */,
+				02A6BB4B27F4AEFE008F64ED /* Extension+URLSessionRequests.swift in Sources */,
 				0285DA2B27ED490600EACE0E /* TopAllTimeGamesVC.swift in Sources */,
+				02A6BB4827F4A886008F64ED /* APIEndpoints.swift in Sources */,
 				0285DA2927ED48ED00EACE0E /* TopGamesVC.swift in Sources */,
 				020DF9FE27ECDE5D00D0A970 /* ViewController.swift in Sources */,
+				02A6BB5027F4BD91008F64ED /* AllGames.swift in Sources */,
 				0285DA2D27ED491100EACE0E /* StoresNearVC.swift in Sources */,
 				020DF9FA27ECDE5D00D0A970 /* AppDelegate.swift in Sources */,
 				020DF9FC27ECDE5D00D0A970 /* SceneDelegate.swift in Sources */,
+				02A6BB4D27F4AFE2008F64ED /* Extension+URLSessionErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

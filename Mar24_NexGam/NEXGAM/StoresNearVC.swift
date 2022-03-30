@@ -12,6 +12,7 @@ class StoresNearVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("stores near loaded")
     }
     
 }

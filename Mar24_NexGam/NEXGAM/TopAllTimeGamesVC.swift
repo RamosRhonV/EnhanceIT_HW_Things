@@ -45,6 +45,7 @@ class TopAllTimeGamesVC: UIViewController {
                 
                 DispatchQueue.main.async {
                     self?.gamesList += raw.results
+                    self?.TopAllTimeGamesTableView.reloadData()
                 }
                 
             case .failure(let error):
@@ -64,7 +65,21 @@ extension TopAllTimeGamesVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = TopAllTimeGamesTableView.dequeueReusableCell(withIdentifier: "topAllTimeGamesCell", for: indexPath)
+        let cell = TopAllTimeGamesTableView.dequeueReusableCell(withIdentifier: "topAllTimeGamesCell", for: indexPath) as! TopAllTimeGamesTVCell
+        cell.GameTitleLabel.text = gamesList[indexPath.row].name.capitalized
+        cell.GameGenreLabel.text = gamesList[indexPath.row].genres[0].name.capitalized
+        
+        let gameCoverImage = URL(string:gamesList[indexPath.row].backgroundImage)!
+        if let imageData = try? Data(contentsOf: gameCoverImage) {
+            cell.GameCover.image = UIImage(data: imageData)
+        }
+        
+        cell.GameCover.contentMode = .scaleAspectFill
+
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
 }

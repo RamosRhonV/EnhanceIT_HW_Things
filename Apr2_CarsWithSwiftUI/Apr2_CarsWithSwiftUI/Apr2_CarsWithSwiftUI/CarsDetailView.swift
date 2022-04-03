@@ -15,7 +15,7 @@ struct CarsDetailView: View {
         VStack {
             Image(uiImage: cars.image).resizable().aspectRatio(contentMode: .fit)
             Text(cars.name)
-            Text("$\(cars.price)")
+            Text("Price: \(cars.price)")
             Spacer()
         }
     }

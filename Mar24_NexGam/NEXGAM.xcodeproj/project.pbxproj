@@ -27,6 +27,7 @@
 		02A6BB5027F4BD91008F64ED /* AllGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB4F27F4BD91008F64ED /* AllGames.swift */; };
 		02A6BB5327F60760008F64ED /* TopAllTimeGamesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB5227F60760008F64ED /* TopAllTimeGamesTVCell.swift */; };
 		02A6BB5527F615E4008F64ED /* LazyLoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB5427F615E4008F64ED /* LazyLoadImage.swift */; };
+		02A6BB9727FB3BCB008F64ED /* RecentGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BB9627FB3BCB008F64ED /* RecentGames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		02A6BB4F27F4BD91008F64ED /* AllGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGames.swift; sourceTree = "<group>"; };
 		02A6BB5227F60760008F64ED /* TopAllTimeGamesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAllTimeGamesTVCell.swift; sourceTree = "<group>"; };
 		02A6BB5427F615E4008F64ED /* LazyLoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadImage.swift; sourceTree = "<group>"; };
+		02A6BB9627FB3BCB008F64ED /* RecentGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentGames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				02A6BB4F27F4BD91008F64ED /* AllGames.swift */,
+				02A6BB9627FB3BCB008F64ED /* RecentGames.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A6BB9727FB3BCB008F64ED /* RecentGames.swift in Sources */,
 				0285DA2727ED48DF00EACE0E /* UpcomingGamesVC.swift in Sources */,
 				02A6BB5527F615E4008F64ED /* LazyLoadImage.swift in Sources */,
 				0285DA2F27ED491D00EACE0E /* GiveawayVC.swift in Sources */,

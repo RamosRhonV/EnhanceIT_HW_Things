@@ -16,6 +16,7 @@ class GamesDetailHubVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         print("games details screen loading")
         fetchGameDetails()
         

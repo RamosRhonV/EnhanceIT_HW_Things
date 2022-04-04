@@ -10,4 +10,9 @@ import UIKit
 
 class UpcomingGamesVC: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigationItem.title = "Upcoming"
+    }
+    
 }

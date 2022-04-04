@@ -17,6 +17,8 @@ class MainScreenVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.title = "Games"
+        
         print("main screen loading")
         
         print("setting up main screen tableview delegates")

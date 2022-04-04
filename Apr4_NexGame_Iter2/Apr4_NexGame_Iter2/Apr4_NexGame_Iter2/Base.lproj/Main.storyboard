@@ -130,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="1839" y="838"/>
         </scene>
-        <!--View Controller-->
+        <!--Nearby StoresVC-->
         <scene sceneID="8hM-QG-Sv6">
             <objects>
-                <viewController id="cSg-n2-X4B" sceneMemberID="viewController">
+                <viewController id="cSg-n2-X4B" customClass="NearbyStoresVC" customModule="Apr4_NexGame_Iter2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WhW-go-0cS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,6 +152,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="O71-M2-eEC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="AuF-K8-unM">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" systemColor="labelColor"/>

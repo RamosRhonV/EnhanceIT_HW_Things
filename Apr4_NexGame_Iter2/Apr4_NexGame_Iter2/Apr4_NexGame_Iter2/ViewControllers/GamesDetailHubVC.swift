@@ -31,11 +31,11 @@ class GamesDetailHubVC: UIViewController {
             switch result {
             case .success(let raw):
                 self?.imageURLString = raw.backgroundImage
-                //print(self?.imageURLString)
                 
                 DispatchQueue.main.async {
                     if let data = try? Data(contentsOf: URL(string: self!.imageURLString)!) {
                         self!.GamesDetailHubCoverImage.image = UIImage(data: data)
+                        self!.GamesDetailHubCoverImage.contentMode = .scaleAspectFill
                     }
                 }
             case .failure(let error):

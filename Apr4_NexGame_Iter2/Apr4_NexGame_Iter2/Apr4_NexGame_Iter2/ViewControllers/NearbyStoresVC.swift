@@ -10,8 +10,12 @@ import UIKit
 
 class NearbyStoresVC: UIViewController {
     
+    @IBOutlet weak var NearbyStoresTableView: UITableView!
+    var storesList = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Nearby Stores"
     }
 }
+

@@ -37,7 +37,7 @@ struct Results2: Codable {
     let stores : [Stores2]?
     let released : String?
     let tba : Bool?
-    let background_image : String
+    let background_image : String?
     let rating : Double?
     let rating_top : Int?
     let ratings : [Ratings2]?
@@ -95,7 +95,7 @@ struct Results2: Codable {
         case genres = "genres"
     }
 
-    /*init(from decoder: Decoder) throws {
+    init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         slug = try values.decodeIfPresent(String.self, forKey: .slug)
         name = try values.decodeIfPresent(String.self, forKey: .name)
@@ -104,7 +104,7 @@ struct Results2: Codable {
         stores = try values.decodeIfPresent([Stores2].self, forKey: .stores)
         released = try values.decodeIfPresent(String.self, forKey: .released)
         tba = try values.decodeIfPresent(Bool.self, forKey: .tba)
-        //background_image = try values.decodeIfPresent(String.self, forKey: .background_image)
+        background_image = try values.decodeIfPresent(String.self, forKey: .background_image)
         rating = try values.decodeIfPresent(Double.self, forKey: .rating)
         rating_top = try values.decodeIfPresent(Int.self, forKey: .rating_top)
         ratings = try values.decodeIfPresent([Ratings2].self, forKey: .ratings)
@@ -127,7 +127,7 @@ struct Results2: Codable {
         short_screenshots = try values.decodeIfPresent([Short_screenshots].self, forKey: .short_screenshots)
         parent_platforms = try values.decodeIfPresent([Parent_platforms].self, forKey: .parent_platforms)
         genres = try values.decodeIfPresent([Genres2].self, forKey: .genres)
-    }*/
+    }
 }
 
 struct Added_by_status2 : Codable {

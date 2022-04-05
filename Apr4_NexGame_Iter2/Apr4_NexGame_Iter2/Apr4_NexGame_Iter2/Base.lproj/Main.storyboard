@@ -169,6 +169,7 @@
                     <navigationItem key="navigationItem" id="Ewj-16-9bo"/>
                     <connections>
                         <outlet property="UpcomingGamesTableView" destination="FEd-3g-gHX" id="uN5-0D-V1I"/>
+                        <segue destination="KQh-CY-MZP" kind="show" identifier="segue2_to_gamesDetailHubVC" id="vkH-fF-Mbk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pxa-iM-6aE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -182,14 +183,54 @@
                     <view key="view" contentMode="scaleToFill" id="WhW-go-0cS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wnX-Tx-Sfb">
+                                <rect key="frame" x="20" y="88" width="374" height="705"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Ep4-sl-xz1" customClass="NearbyStoresTableViewCell" customModule="Apr4_NexGame_Iter2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="374" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ep4-sl-xz1" id="4cC-SU-vJ8">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogm-IG-PL2">
+                                                    <rect key="frame" x="20" y="68" width="334" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jen-DC-wJj">
+                                                    <rect key="frame" x="20" y="11" width="334" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="StoreDomainLabel" destination="Ogm-IG-PL2" id="0Nz-5m-oeP"/>
+                                            <outlet property="StoreNameLabel" destination="Jen-DC-wJj" id="HOs-gk-yWt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="2oI-Tr-Rjq"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="eTA-l1-oKr"/>
+                    <connections>
+                        <outlet property="NearbyStoresTableView" destination="wnX-Tx-Sfb" id="jTG-kI-D5e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SIb-vG-Aso" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1838" y="1596"/>
+            <point key="canvasLocation" x="1837.68115942029" y="1595.7589285714284"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fwz-Ih-9hD">
@@ -251,6 +292,9 @@
             <point key="canvasLocation" x="929" y="1596"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="vkH-fF-Mbk"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
         <image name="gamecontroller" catalog="system" width="128" height="80"/>

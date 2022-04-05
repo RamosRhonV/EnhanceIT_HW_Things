@@ -12,6 +12,7 @@ class UpcomingGamesVC: UIViewController {
     
     @IBOutlet weak var UpcomingGamesTableView: UITableView!
     var upcomingList = [Results2]()
+    var segueIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +61,7 @@ extension UpcomingGamesVC: UITableViewDelegate, UITableViewDataSource {
         cell.GameTitleLabel.text = upcomingList[indexPath.row].name ?? "No Name"
         cell.GameGenreLabel.text = upcomingList[indexPath.row].genres?[0].name?.capitalized ?? "No Genre"
         
-        let gameCoverImage = URL(string:upcomingList[indexPath.row].background_image)!
+        let gameCoverImage = URL(string:upcomingList[indexPath.row].background_image!)!
         if let imageData = try? Data(contentsOf: gameCoverImage) {
             cell.GameCover.image = UIImage(data: imageData)
         }
@@ -71,6 +72,19 @@ extension UpcomingGamesVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
         return 100
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        segueIndex = indexPath.row
+        self.performSegue(withIdentifier: "segue2_to_gamesDetailHubVC", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let destination = segue.destination as! GamesDetailHubVC
+        destination.gameID = upcomingList[segueIndex].id!
     }
 }

@@ -27,6 +27,8 @@
 		02A6BBED27FB4AAC008F64ED /* GamesDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BBEC27FB4AAC008F64ED /* GamesDetails.swift */; };
 		02A6BBF027FB7A16008F64ED /* UpcomingGamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BBEF27FB7A16008F64ED /* UpcomingGamesVC.swift */; };
 		02A6BBF227FB7A55008F64ED /* NearbyStoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BBF127FB7A55008F64ED /* NearbyStoresVC.swift */; };
+		02A6BBF427FBBC77008F64ED /* GamesUpcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BBF327FBBC76008F64ED /* GamesUpcoming.swift */; };
+		02A6BBF627FBBEBD008F64ED /* UpcomingGamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A6BBF527FBBEBD008F64ED /* UpcomingGamesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		02A6BBEC27FB4AAC008F64ED /* GamesDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesDetails.swift; sourceTree = "<group>"; };
 		02A6BBEF27FB7A16008F64ED /* UpcomingGamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingGamesVC.swift; sourceTree = "<group>"; };
 		02A6BBF127FB7A55008F64ED /* NearbyStoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyStoresVC.swift; sourceTree = "<group>"; };
+		02A6BBF327FBBC76008F64ED /* GamesUpcoming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesUpcoming.swift; sourceTree = "<group>"; };
+		02A6BBF527FBBEBD008F64ED /* UpcomingGamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingGamesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,7 @@
 			children = (
 				02A6BBDE27FB3F07008F64ED /* Games.swift */,
 				02A6BBEC27FB4AAC008F64ED /* GamesDetails.swift */,
+				02A6BBF327FBBC76008F64ED /* GamesUpcoming.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				02A6BBE827FB408F008F64ED /* MainScreenTableViewCell.swift */,
+				02A6BBF527FBBEBD008F64ED /* UpcomingGamesTableViewCell.swift */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -333,6 +339,7 @@
 			files = (
 				02A6BBE927FB408F008F64ED /* MainScreenTableViewCell.swift in Sources */,
 				02A6BBE327FB3F78008F64ED /* Extension+URLSessionRequests.swift in Sources */,
+				02A6BBF427FBBC77008F64ED /* GamesUpcoming.swift in Sources */,
 				02A6BBDC27FB3E5D008F64ED /* MainScreenVC.swift in Sources */,
 				02A6BBA527FB3D41008F64ED /* AppDelegate.swift in Sources */,
 				02A6BBEB27FB465D008F64ED /* GamesDetailHubVC.swift in Sources */,
@@ -340,6 +347,7 @@
 				02A6BBE727FB3FBC008F64ED /* APIEndpoints.swift in Sources */,
 				02A6BBF227FB7A55008F64ED /* NearbyStoresVC.swift in Sources */,
 				02A6BBE527FB3F78008F64ED /* LazyLoadImage.swift in Sources */,
+				02A6BBF627FBBEBD008F64ED /* UpcomingGamesTableViewCell.swift in Sources */,
 				02A6BBF027FB7A16008F64ED /* UpcomingGamesVC.swift in Sources */,
 				02A6BBA727FB3D41008F64ED /* SceneDelegate.swift in Sources */,
 				02A6BBED27FB4AAC008F64ED /* GamesDetails.swift in Sources */,

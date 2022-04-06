@@ -10,6 +10,7 @@ import UIKit
 
 class NearbyStoresTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var StoreIconImageView: UIImageView!
     @IBOutlet weak var StoreNameLabel: UILabel!
     @IBOutlet weak var StoreDomainLabel: UILabel!
 }

@@ -29,18 +29,18 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="okL-hw-ycg">
-                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="100"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="140" height="100"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qes-fi-ZUC">
-                                                    <rect key="frame" x="128" y="11" width="245" height="21"/>
+                                                    <rect key="frame" x="148" y="11" width="225" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkR-OR-aKb">
-                                                    <rect key="frame" x="129" y="68" width="245" height="21"/>
+                                                    <rect key="frame" x="148" y="68" width="226" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -135,7 +135,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDK-e4-wUM">
-                                                    <rect key="frame" x="20" y="0.0" width="120" height="100"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="140" height="100"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSV-7s-uXT">
@@ -189,7 +189,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Ep4-sl-xz1" customClass="NearbyStoresTableViewCell" customModule="Apr4_NexGame_Iter2" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="nearbyStoresTableViewCell" rowHeight="100" id="Ep4-sl-xz1" customClass="NearbyStoresTableViewCell" customModule="Apr4_NexGame_Iter2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="374" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ep4-sl-xz1" id="4cC-SU-vJ8">
@@ -197,23 +197,28 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogm-IG-PL2">
-                                                    <rect key="frame" x="20" y="68" width="334" height="21"/>
+                                                    <rect key="frame" x="128" y="68" width="226" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jen-DC-wJj">
-                                                    <rect key="frame" x="20" y="11" width="334" height="21"/>
+                                                    <rect key="frame" x="128" y="11" width="226" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aT5-1G-k5K">
+                                                    <rect key="frame" x="20" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="StoreDomainLabel" destination="Ogm-IG-PL2" id="0Nz-5m-oeP"/>
+                                            <outlet property="StoreIconImageView" destination="aT5-1G-k5K" id="ghY-dl-c3y"/>
                                             <outlet property="StoreNameLabel" destination="Jen-DC-wJj" id="HOs-gk-yWt"/>
                                         </connections>
                                     </tableViewCell>
@@ -226,11 +231,37 @@
                     <navigationItem key="navigationItem" id="eTA-l1-oKr"/>
                     <connections>
                         <outlet property="NearbyStoresTableView" destination="wnX-Tx-Sfb" id="jTG-kI-D5e"/>
+                        <segue destination="qkQ-QJ-Mh3" kind="show" identifier="segue_to_storesDetailHubVC" id="aif-M6-xwF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SIb-vG-Aso" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1837.68115942029" y="1595.7589285714284"/>
+        </scene>
+        <!--Nearby Stores Detail HubVC-->
+        <scene sceneID="FuV-Zl-PTR">
+            <objects>
+                <viewController id="qkQ-QJ-Mh3" customClass="NearbyStoresDetailHubVC" customModule="Apr4_NexGame_Iter2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GbH-Wf-MIH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="luS-OL-xI3" customClass="LazyLoadImage" customModule="Apr4_NexGame_Iter2" customModuleProvider="target">
+                                <rect key="frame" x="20" y="88" width="374" height="374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ELv-TX-LTS"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d6Y-b7-Ncg"/>
+                    <connections>
+                        <outlet property="StoresDetailHubCoverImage" destination="luS-OL-xI3" id="rTa-2A-nwk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uG0-DE-LoI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2805.7971014492755" y="1595.7589285714284"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fwz-Ih-9hD">
@@ -293,7 +324,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vkH-fF-Mbk"/>
+        <segue reference="Byb-uI-SeC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
@@ -307,6 +338,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
